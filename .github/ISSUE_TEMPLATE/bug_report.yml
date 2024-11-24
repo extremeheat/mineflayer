@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Before you report a potential bug, please:
-        * Make sure to check our [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) to see if it has a resolution to your issue.**
+        * Make sure to check our [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) to see if it has a resolution to your issue.
         * Ensure that all your dependencies are up to date by running `npm update`.
   - type: checkboxes
     id: faq_check
