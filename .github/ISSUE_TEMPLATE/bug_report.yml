@@ -45,15 +45,11 @@ body:
     id: problem_description
     attributes:
       label: Detailed description of the problem
-      description: Provide a clear and concise description of the problem with as much context as possible. Mention what you're building and the problem you're trying to solve.
+      description: |
+        Provide a clear and concise description of the problem with as much context as possible.
+        Mention what you're building and the problem you're trying to solve.
+        Mention any methods or examples you've tried from the API. Include any errors encountered.
       placeholder: "Describe the problem you're experiencing..."
-
-  - type: textarea
-    id: what_tried
-    attributes:
-      label: What did you try yet?
-      description: Mention any methods or examples you've tried from the API. Include any errors encountered.
-      placeholder: "Describe what you've tried so far..."
 
   - type: textarea
     id: current_code
