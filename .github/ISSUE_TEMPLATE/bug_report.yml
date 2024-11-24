@@ -6,20 +6,22 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Please make sure to check our [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) to see if it has a resolution to your issue.**
+        Before you report a potential bug, please:
+        * Make sure to check our [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) to see if it has a resolution to your issue.**
+        * Ensure that all your dependencies are up to date by running `npm update`.
   - type: checkboxes
     id: faq_check
     attributes:
-      label: Does the FAQ contain a resolution to my issue?
+      label: Have you checked the FAQ and updated your dependencies?
       options:
       -
-        label: The FAQ doesn't contain a resolution to my issue
+        label: I checked the FAQ and ran `npm update`
         required: true
   - type: input
     id: versions_mineflayer
     attributes:
       label: Mineflayer version
-      description: Enter the version of mineflayer you are using (e.g., 2.39.0)
+      description: Enter the version of mineflayer you are using (e.g., 2.39.0). You can find the version of mineflayer by running `npm view mineflayer`.
     validations:
       required: true
 
@@ -35,9 +37,9 @@ body:
     id: versions_node
     attributes:
       label: Node version
-      description: Enter the Node.js version you are using (e.g., 14.17.0)
+      description: Enter the Node.js version you are using (e.g., 14.17.0). You can find the version by running `node --version`.
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: problem_description
