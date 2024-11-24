@@ -10,7 +10,7 @@ body:
   - type: checkboxes
     id: faq_check
     attributes:
-      label: Does the [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) contain a resolution to my issue?
+      label: Does the FAQ contain a resolution to my issue?
       options:
       -
         label: The FAQ doesn't contain a resolution to my issue
