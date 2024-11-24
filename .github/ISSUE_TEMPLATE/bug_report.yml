@@ -1,0 +1,78 @@
+name: Bug report
+description: Create a report to help us improve
+title: ''
+labels: ['possible bug', 'Stage1']
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure to check our [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) to see if it has a resolution to your issue.
+
+  - type: checkbox
+    id: faq_check
+    attributes:
+      label: The FAQ doesn't contain a resolution to my issue
+
+  - type: input
+    id: versions_mineflayer
+    attributes:
+      label: Mineflayer version
+      description: Enter the version of mineflayer you are using (e.g., 2.39.0)
+    validations:
+      required: true
+
+  - type: input
+    id: versions_server
+    attributes:
+      label: Server version
+      description: Specify the server type and version (e.g., vanilla/spigot/paper #.#.#)
+    validations:
+      required: true
+
+  - type: input
+    id: versions_node
+    attributes:
+      label: Node version
+      description: Enter the Node.js version you are using (e.g., 14.17.0)
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_description
+    attributes:
+      label: Detailed description of the problem
+      description: Provide a clear and concise description of the problem with as much context as possible. Mention what you're building and the problem you're trying to solve.
+      placeholder: "Describe the problem you're experiencing..."
+
+  - type: textarea
+    id: what_tried
+    attributes:
+      label: What did you try yet?
+      description: Mention any methods or examples you've tried from the API. Include any errors encountered.
+      placeholder: "Describe what you've tried so far..."
+
+  - type: textarea
+    id: current_code
+    attributes:
+      label: Your current code
+      description: Paste the relevant portion of your code here.
+      render: shell
+      placeholder: |
+        ```js
+        // Some code here, replace this
+        ```
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: Provide a clear and concise description of what you expected to happen.
+      placeholder: "Describe the expected outcome..."
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+      placeholder: "Any other relevant details..."
