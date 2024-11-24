@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please make sure to check our [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) to see if it has a resolution to your issue.
+        **Please make sure to check our [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) to see if it has a resolution to your issue.**
   - type: checkboxes
     id: faq_check
     attributes:
