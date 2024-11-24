@@ -7,13 +7,13 @@ body:
     attributes:
       value: |
         Please make sure to check our [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) to see if it has a resolution to your issue.
-
   - type: checkboxes
     id: faq_check
     attributes:
-      label: The FAQ doesn't contain a resolution to my issue
+      label: Does the [FAQ](https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md) contain a resolution to my issue?
       options:
       -
+        label: The FAQ doesn't contain a resolution to my issue
         required: true
   - type: input
     id: versions_mineflayer
